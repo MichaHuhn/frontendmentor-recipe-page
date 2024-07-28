@@ -49,7 +49,7 @@ Mobile:
 
 * I learned how to keep track of every detail in the Figma mockups.
 * I made the page responsive by using fluid design and media queries.
-* I also learned how to style lists with CSS.
+* I also learned how to style lists and tables with CSS.
 
 ### Useful resources
 
