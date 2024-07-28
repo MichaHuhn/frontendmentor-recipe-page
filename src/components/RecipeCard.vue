@@ -7,13 +7,13 @@
     <img src="@/assets/images/omelette.jpeg" alt="Recipe preview of an omelette" class="top-image">
     
     <div class="text-content">
-      <section class="title-section recipe-section">
+      <header class="title-section recipe-section">
         <h1 class="heading">Simple Omelette Recipe</h1>
         <p class="description">
           An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
           to perfection, optionally filled with your choice of cheese, vegetables, or meats.
         </p>
-      </section>
+      </header>
       
       <section class="preparation-section recipe-section">
         <h2 class="preparation-heading">Preparation time</h2>
@@ -72,27 +72,26 @@
       <section class="recipe-section">
         <h2 class="section-heading">Nutrition</h2>
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
-        <div class="nutrition-table">
-          <div class="table-row">
-            <span>Calories</span>
-            <span class="highlight">277kcal</span>
-          </div>
-          <div class="spacer"></div>
-          <div class="table-row">
-            <span>Carbs</span>
-            <span class="highlight">0g</span>
-          </div>
-          <div class="spacer"></div>
-          <div class="table-row">
-            <span>Protein</span>
-            <span class="highlight">20g</span>
-          </div>
-          <div class="spacer"></div>
-          <div class="table-row">
-            <span>Fat</span>
-            <span class="highlight">22g</span>
-          </div>
-        </div>
+        <table class="base-table">
+          <tbody>
+            <tr>
+              <td>Calories</td>
+              <td class="highlight">277kcal</td>
+            </tr>
+            <tr>
+              <td>Carbs</td>
+              <td class="highlight">0g</td>
+            </tr>
+            <tr>
+              <td>Protein</td>
+              <td class="highlight">20g</td>
+            </tr>
+            <tr>
+              <td>Fat</td>
+              <td class="highlight">22g</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </div>
   </div>
@@ -174,23 +173,6 @@
     
     .instructions-list li::marker {
       @extend %typography-text-preset-4-bold;
-    }
-    
-    .nutrition-table {
-      display: grid;
-      gap: var(--spacing-150);
-      
-      .table-row {
-        padding-inline: var(--spacing-400);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: var(--spacing-200);
-        
-        .highlight {
-          color: var(--color-brown-800);
-          @extend %typography-text-preset-4-bold;
-        }
-      }
     }
   }
 }
