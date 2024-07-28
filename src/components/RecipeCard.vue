@@ -16,7 +16,7 @@
       </section>
       
       <section class="preparation-section recipe-section">
-        <h3 class="preparation-heading">Preparation time</h3>
+        <h2 class="preparation-heading">Preparation time</h2>
         <ul class="preparation-list base-list">
           <li><strong>Total:</strong> Approximately 10 minutes</li>
           <li><strong>Preparation:</strong> 5 minutes</li>
