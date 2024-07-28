@@ -1,0 +1,13 @@
+.base-list {
+  padding-inline-start: var(--spacing-300);
+  display: grid;
+  gap: var(--spacing-100);
+  
+  li {
+    padding-inline-start: var(--spacing-200);
+    
+    &::marker {
+      color: var(--color-brown-800);
+    }
+  }
+}
