@@ -30,8 +30,8 @@ Mobile:
 
 ### Links
 
-- Challenge solution: [Add solution URL here](https://your-solution-url.com)
-- Live site: [Add live site URL here](https://your-live-site-url.com)
+- Live site: https://michahuhn.github.io/frontendmentor-recipe-page
+- Challenge solution: https://www.frontendmentor.io/solutions/recipe-page-using-vuew-k3V9tIEiN0
 
 ## My process
 
